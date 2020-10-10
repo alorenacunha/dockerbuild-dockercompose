@@ -18,6 +18,6 @@ steps:
     args: ['version']
 
 images:
-    - 'gcr.io/$PROJECT_ID/docker-compose:latest'
-    - 'gcr.io/$PROJECT_ID/docker-compose:${D_OCKER_COMPOSE_VERSION}'
+- 'gcr.io/$PROJECT_ID/docker-compose:latest'
+- 'gcr.io/$PROJECT_ID/docker-compose:${D_OCKER_COMPOSE_VERSION}'
 tags: ['cloud-builders-community']
